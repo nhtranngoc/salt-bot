@@ -1,0 +1,24 @@
+{
+  "name": "salt-bot",
+  "version": "1.0.0",
+  "description": "memes",
+  "main": "main.js",
+  "author": "@nhtranngoc, AKA BatNam",
+  "license": "MIT",
+  "dependencies": {
+    "discord.io": "^1.13.4",
+    "winston": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nhtranngoc/salt-bot"
+  },
+  "keywords": [
+    "salt",
+    "overwatch",
+    "discord"
+  ]
+}
