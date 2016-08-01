@@ -1,1 +1,1 @@
-Discord Chat Bot for The Salty Spitoon
+#Discord Chat Bot for The Salty Spitoon
