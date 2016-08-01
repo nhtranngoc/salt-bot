@@ -41,6 +41,9 @@ bot.on('message', function(message) {
 		if (message.content === "soundls") {
 			bot.sendMessage(message.channel, soundbites);
 		}
+		if (message.content.includes("rip")) {
+			bot.sendMessage(message.channel, "Press F to pay respect");
+		}
 		if (message.content.endsWith(".mp3")){
 			if(soundbites.indexOf(message.content)==-1) {
 				bot.sendMessage(message.channel, "No sound files found. Type soundls for a list of available sound files");
